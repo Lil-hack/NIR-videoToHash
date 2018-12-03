@@ -93,10 +93,7 @@ public class Application {
 
                       RadialHash hash1 = jpHash.getImageRadialHash(javaImage);
                           System.out.println("Hash1: " + hash1);
-                         //   RadialHash hash2 = jpHash.getImageRadialHash("c:/test/picture/0500500.png");
-                          //  System.out.println("Hash2: " + hash2);
-
-                        //    System.out.println("Similarity: " + jpHash.getSimilarity(hash1, hash2));
+     
                             start += step;
                         }
                         if (timestamp > end) {
